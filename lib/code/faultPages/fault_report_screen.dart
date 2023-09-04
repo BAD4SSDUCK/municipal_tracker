@@ -825,6 +825,8 @@ class _ReportPropertyMenuState extends State<ReportPropertyMenu> {
                                     crossAxisAlignment: CrossAxisAlignment.center,
                                     children: [
                                       Row(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        crossAxisAlignment: CrossAxisAlignment.center,
                                         children: [
                                           BasicIconButtonGreen(
                                             onPress: () {
@@ -837,7 +839,7 @@ class _ReportPropertyMenuState extends State<ReportPropertyMenu> {
                                                     //MapPage()
                                                   ));
                                             },
-                                            labelText: 'Fault Location',
+                                            labelText: 'Location',
                                             fSize: 15,
                                             faIcon: const FaIcon(Icons.map),
                                             fgColor: Colors.purple,
@@ -853,7 +855,7 @@ class _ReportPropertyMenuState extends State<ReportPropertyMenu> {
                                                     //MapPage()
                                                   ));
                                             },
-                                            labelText: 'Add Image',
+                                            labelText: 'Image +',
                                             fSize: 15,
                                             faIcon: const FaIcon(Icons.photo_camera),
                                             fgColor: Colors.blueGrey,
